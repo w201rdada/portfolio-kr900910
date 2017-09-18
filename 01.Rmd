@@ -1,24 +1,19 @@
-# My first cool idea {#slug-one}
+# Can Machines Help Christians Make Ethical Decisions? {#robo-pastor}
 
 #### Keywords
 
-yaba, daba, do
+robo-pastor, NLP, Reformation
 
-## A beginning.
+## Need for robo-pastor.
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+Many Christians try to make ethical decisions based on their interpretations of the Bible, and some of them have right educational and social backgrounds to make such decisions themselves while a lot of Christians seek for advice of others like pastors. However, not all pastors have the same view on one thing, and people might get conflicting answers from different pastors which make decision making process more difficult. Also, people cannot talk to pastors about every daily decision they make while the need for biblical decision making remains. If a machine can aggregate different biblical interpretation data and provide advice for a given issue with proper reference to the Bible, the machine can be a robo-pastor and help Christians make ethical decisions.
 
-## A middle.
+## NLP for robo-pastor.
 
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+The robo-pastor will be a robot which will heavily use machine learning techniques and natural language processing. An input to the robo-pastor will be a question like “should I love my neighbor?” The robo-pastor will generate three outputs. The first is a verse or a chapter from the Bible that is the most relevant to the question asked. For the above question, this first output might look like “Love your neighbor as yourself (Mark 12:31)”. The second output will be a percentage of interpretations that will say “Yes” to the question asked and the summary sentence of those interpretations. For the above example, this output will look like “98% Yes - God wants you to love your neighbor”. The last output will be similar to the second output, but it will be for “No”. This output for our example will look like “2% No – it’s okay to hate your neighbor”.
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
+To generate the outputs from the given question, the robo-pastor will first select keywords from the question. For our example, the keywords will be “love” and “neighbor”. Then, the robo-pastor will look for the most relevant verse or chapter from the Bible using these keywords. Once such verse or chapter is found, the robo-pastor will look for webpages which mention the selected verse/chapter. For each webpage, the robo-pastor will summarize the content in one sentence and tag the sentence as “Yes”, “No”, or “Neutral” based on its relationship to the keywords we first selected. Then, the robo-pastor will exclude “Neutral” sentences, calculate “Yes” and “No” percentages, and select sentences for “Yes” and “No” which best summarize each answer.
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+## Next steps for robo-pastor.
 
-## An end.
-
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+As described above, the robo-pastor summarizes different biblical interpretations on a given issue in a simple “Yes”/”No” output with a specific reference to the Bible, and this will help Christians make faster ethical decisions in certain circumstances. However, there is a very obvious limitation for the robo-pastor: a simple "Yes" or "No" answer might not be the correct answer for the given user. If the robo-pastor can understand different situations of a user and make more intricate advice, it will truly help Christians make better ethical decisions and might bring the Second Reformation in our history.
