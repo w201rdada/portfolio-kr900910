@@ -1,17 +1,18 @@
-# Predicting Interview Result Using Sound Data {#interview-result-prediction}
+# Predicting Interview Result Using Sound Data
+# {#interview-result-prediction}
 
 #### Keywords
 
 interview, supervised learning, sound data
 
-## A beginning.
+## Post-Interview Frustration.
 
 Most of interviewees should have asked themselves this question after an interview: “did I do well during the interview?” Some companies let you know about the interview result right away. However, most of companies take at least a few days or even longer to respond back to interviewees, and those interviewees feel like they are waiting for years. If there is a way to predict interview result based on conversation made during interview, it will relieve interviewees’ frustration during the waiting period and help them emotionally prepared for interview result.
 
-## A middle.
+## Prediction Using Interview Recording.
 
 One way to predict interview result is using machine learning methods and interview sound recording data. The basic idea is to identify different features from sound data and use supervised learning to predict interview result. To train a machine learning model, sufficient amount of recording data should be collected. To achieve this, random sample of job seekers will be selected in job search websites, and they will be asked to record their interviews and report interview results. Once data is available, different features of sound data should be identified. For example, these features will include number of pauses, specific words used by interviewers, vibration level of interviewee’s voice, etc. After features are identified, sound data will be processed with features as output, and this output along with interview results collected will be merged as one data set. This data set will be then divided into training set and test set, and supervised learning methods such as Naïve Bayes method or decision tree will be used to create a prediction model. Once the model is trained, a website can be created for interviewees to upload their interview sound recording and see the prediction result along with feature analysis. Once the interviewees find out actual interview result, they will be asked to submit the result along with recording data which will then be used to update the prediction model.
 
-## An end.
+## Better Interview Experience.
 
 The solution described above will not only reduce post-interview frustration for interviewees but also help them identify the aspects of interviews that can be improved by providing feature analysis. They can also perform practice interviews and analyze how different iterations can increase or decrease interview success probability. This solution will not completely free interviewees from suffering in uncertainty, and it will be challenging to collect interview recording data to build a sound prediction model. However, if this solution can be implemented, it will significantly improve general interview experience for many job seekers.
