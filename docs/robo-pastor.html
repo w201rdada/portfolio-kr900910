@@ -68,9 +68,9 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-the-author"><i class="fa fa-check"></i>About the author</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="robo-pastor.html"><a href="robo-pastor.html"><i class="fa fa-check"></i>Can Machines Help Christians Make Ethical Decisions?</a><ul>
-<li class="chapter" data-level="" data-path="robo-pastor.html"><a href="robo-pastor.html#need-to-summarize-different-biblical-interpretations"><i class="fa fa-check"></i>Need to summarize different Biblical interpretations</a></li>
+<li class="chapter" data-level="" data-path="robo-pastor.html"><a href="robo-pastor.html#need-to-avoid-biased-biblical-interpretations"><i class="fa fa-check"></i>Need to avoid biased Biblical interpretations</a></li>
 <li class="chapter" data-level="" data-path="robo-pastor.html"><a href="robo-pastor.html#using-nlp-for-robo-pastor"><i class="fa fa-check"></i>Using NLP for robo-pastor</a></li>
-<li class="chapter" data-level="" data-path="robo-pastor.html"><a href="robo-pastor.html#next-steps-for-robo-pastor"><i class="fa fa-check"></i>Next steps for robo-pastor</a></li>
+<li class="chapter" data-level="" data-path="robo-pastor.html"><a href="robo-pastor.html#true-purpose-of-robo-pastor"><i class="fa fa-check"></i>True purpose of robo-pastor</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="interview-prediction.html"><a href="interview-prediction.html"><i class="fa fa-check"></i>Predicting Interview Result Using Sound Data</a><ul>
 <li class="chapter" data-level="" data-path="interview-prediction.html"><a href="interview-prediction.html#post-interview-frustration"><i class="fa fa-check"></i>Post-Interview Frustration</a></li>
@@ -103,28 +103,28 @@
 <!-- great title! love the slug too -->
 <div id="keywords" class="section level4">
 <h4>Keywords</h4>
-<p>robo-pastor, Biblical interpretation, NLP, clustering, summarization <!-- good keywords, but add one or two more --></p>
+<p>robo-pastor, Biblical interpretation, NLP, summarization <!-- good keywords, but add one or two more --></p>
 </div>
-<div id="need-to-summarize-different-biblical-interpretations" class="section level2">
-<h2>Need to summarize different Biblical interpretations</h2>
+<div id="need-to-avoid-biased-biblical-interpretations" class="section level2">
+<h2>Need to avoid biased Biblical interpretations</h2>
 <!-- can you characterize the need in the heading? -->
-<p>Many Christians try to make ethical decisions based on their interpretations of the Bible. Some have the right educational and social backgrounds to make such decisions themselves, but most seek the advice of pastors. However, there are some cases where talking directly to pastors to answer ethical questions is limited or even dangerous. For example, consider a gay Christian teenager boy who wants to know what the Bible says about his sexuality. If a pastor at his church detests homosexuality, listening to such pastor’s Biblical interpretation about homosexuality might be devastating to the boy, and it can even make him leave Christianity. Since a specific Biblical interpretation can have a profound impact on Christians’ lives, Christians including pastors need an efficient way to summarize how different people interpret the Bible for a given ethical question to avoid narrow-minded viewpoints. If a machine can aggregate different biblical interpretations available online and provide advice for a given issue with proper references to the Bible, the machine can be a robo-pastor and help Christians make better ethical decisions.</p>
+<p>Many Christians try to make ethical decisions based on their interpretations of the Bible. Some have the right educational and social backgrounds to make such decisions themselves, but most seek the advice of pastors. However, there are some cases where relying completely on one pastor’s interpretation to answer ethical questions is undesirable or even dangerous. For example, consider a gay Christian teenager boy who wants to know what the Bible says about his sexuality. If a pastor at his church is homophobic, listening to such pastor’s Biblical interpretation about homosexuality might be devastating to the boy, and it can even make him leave Christianity. Since a specific Biblical interpretation can have a profound impact on Christians’ lives, Christians need an efficient way to summarize how different people interpret the Bible for a given ethical question to avoid biased interpretations. If a machine can aggregate different biblical interpretations available online and provide advice for a given issue with proper references to the Bible, the machine can be a robo-pastor and help Christians make better ethical decisions.</p>
 <!-- Clear concept, but controversial? -->
 </div>
 <div id="using-nlp-for-robo-pastor" class="section level2">
 <h2>Using NLP for robo-pastor</h2>
 <p>The robo-pastor will be a bot that uses machine learning techniques and natural language processing. An input to the robo-pastor will be a yes/no question like, “Should I love my neighbor?”. The robo-pastor will generate three outputs. The first is a verse or a chapter from the Bible that is the most relevant to the question asked.<!-- How will you measure relevance? --> For the above question, this first output might look like, “Love your neighbor as yourself (Mark 12:31)”. The second output will be a percentage of interpretations that will say “Yes” to the question asked and the key sentence of “Yes” interpretations.<!-- Will they have to be yes/no questions? --> For the above example, this output will look like “98% Yes - God wants you to love your neighbor”. The last output will be similar to the second output, but it will be for “No”. This output for our example will look like “2% No – it’s okay to hate your neighbor”.</p>
 <div class="figure" style="text-align: center"><span id="fig:robo-pastor"></span>
-<img src="img/system_architecture.jpg" alt="System Architecture Diagram"  />
+<img src="img/system_architecture_robo-pastor.jpg" alt="System Architecture Diagram"  />
 <p class="caption">
 Figure 3: System Architecture Diagram
 </p>
 </div>
-<p>To generate outputs from a given question, the robo-pastor will use the input question to find out a relevant topic from pre-defined topic list. For our example, the topic will be “love neighbor”. Then, the robo-pastor will look for the most relevant verse or chapter from the Bible tagged with the given topic. Once such verse or chapter is found, the robo-pastor will look in the database to find out interpretations tagged with the selected verse or chapter. For each interpretation found, the robo-pastor will summarize it in one sentence and tag the sentence as “Yes” or “No” based on its relationship to the topic we first found. Then, the robo-pastor will calculate “Yes” and “No” percentages and select key sentences for “Yes” and “No” which best summarize each answer. <!-- Rotten Tomatoes? --></p>
+<p>To generate outputs from a given question, the robo-pastor will use the input question to find out a relevant topic from pre-defined topic list. For our example, the topic will be “love neighbor”. Then, the robo-pastor will look for the most relevant verse or chapter from the Bible tagged with the given topic. Once such verse or chapter is found, the robo-pastor will look in the database to find out interpretations tagged with the selected verse or chapter. For each interpretation found, the robo-pastor will summarize it in one sentence and tag the sentence as “Yes” or “No” based on its relationship to the topic defined. Then, the robo-pastor will calculate “Yes” and “No” percentages and select key sentences for “Yes” and “No” which best summarize each answer. <!-- Rotten Tomatoes? --></p>
 </div>
-<div id="next-steps-for-robo-pastor" class="section level2">
-<h2>Next steps for robo-pastor</h2>
-<p>As described above, the robo-pastor summarizes different biblical interpretations on a given issue in a simple “Yes/No” output with a specific reference to the Bible, and this will help Christians make faster ethical decisions without having to rely on one source of interpretation. However, there is a very obvious limitation for the robo-pastor: a simple “Yes” or “No” answer might not be the correct answer for the given user. If the robo-pastor can understand different situations of a user and make more intricate advice, it will truly help Christians make better ethical decisions and bring the Second Reformation in our history. <!-- Be careful what you wish for, the Reformation was a civil war within Christianity! --></p>
+<div id="true-purpose-of-robo-pastor" class="section level2">
+<h2>True purpose of robo-pastor</h2>
+<p>As described above, the robo-pastor summarizes different biblical interpretations on a given issue in a simple “Yes/No” output with a specific reference to the Bible, and this will help Christians make faster ethical decisions without having to rely on one source of interpretation. However, there is a very obvious limitation for the robo-pastor: a simple “Yes” or “No” answer might not be the correct answer for the given user. Also, for many Christians, the concept of robo-pastor will sound weird or even distasteful. However, the purpose of robo-pastor is not replacing human pastors who can provide more than “Yes/No” answer. Its true purpose is to supplement Christians with a little bit more diverse interpretations so that they are not stuck with one-sided interpretation from their human pastors. <!-- Be careful what you wish for, the Reformation was a civil war within Christianity! --></p>
 
 </div>
 </div>
