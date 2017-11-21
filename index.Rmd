@@ -15,7 +15,7 @@ library(magrittr)
 # Welcome!
 
 <!-- You can include images saved within your repo... -->
-```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
+```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='100%'}
 knitr::include_url('https://marketplace.canva.com/MAB_ajIqclg/2/0/thumbnail_large/canva-hello-world-creative-instagram-post-MAB_ajIqclg.jpg')
 ```
 Hello everyone! I'm Seung, and this is my first data science portfolio website. Hope you enjoy my ideas and connect with me if you're interested. Below is a short clip of myself talking about my hypothetical client (investor). Even though my ideas in this website are not directly related to finance, I'm planning to leverage my data science ideas to achieve what I'm describing in this video.
