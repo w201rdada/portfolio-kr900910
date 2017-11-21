@@ -12,7 +12,7 @@ Many Christians try to make ethical decisions based on their interpretations of 
 ## Using NLP for robo-pastor
 The robo-pastor will be a bot that uses machine learning techniques and natural language processing. An input to the robo-pastor will be a yes/no question like, "Should I love my neighbor?". The robo-pastor will generate three outputs. The first is a verse or a chapter from the Bible that is the most relevant to the question asked.<!-- How will you measure relevance? --> For the above question, this first output might look like, "Love your neighbor as yourself (Mark 12:31)". The second output will be a percentage of interpretations that will say "Yes" to the question asked and the key sentence of "Yes" interpretations.<!-- Will they have to be yes/no questions? --> For the above example, this output will look like "98% Yes - God wants you to love your neighbor". The last output will be similar to the second output, but it will be for "No". This output for our example will look like "2% No – it's okay to hate your neighbor".
 
-```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center'}
+```{r robo-pastor,echo=FALSE,fig.cap='System Architecture Diagram',fig.align='center'}
 knitr::include_graphics('img/system_architecture.jpg')
 ```
 
