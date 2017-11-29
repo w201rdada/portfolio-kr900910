@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>W201 Portfolio</title>
   <meta name="description" content="W201 Portfolio">
-  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.5.9 and GitBook 2.6.7">
 
   <meta property="og:title" content="W201 Portfolio" />
   <meta property="og:type" content="book" />
@@ -67,15 +67,15 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome!</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-the-author"><i class="fa fa-check"></i>About the author</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="robo-pastor.html"><a href="robo-pastor.html"><i class="fa fa-check"></i>Can Machines Help Christians Make Ethical Decisions?</a><ul>
-<li class="chapter" data-level="" data-path="robo-pastor.html"><a href="robo-pastor.html#need-to-avoid-biased-biblical-interpretations"><i class="fa fa-check"></i>Need to avoid biased Biblical interpretations</a></li>
-<li class="chapter" data-level="" data-path="robo-pastor.html"><a href="robo-pastor.html#using-nlp-for-robo-pastor"><i class="fa fa-check"></i>Using NLP for robo-pastor</a></li>
-<li class="chapter" data-level="" data-path="robo-pastor.html"><a href="robo-pastor.html#true-purpose-of-robo-pastor"><i class="fa fa-check"></i>True purpose of robo-pastor</a></li>
+<li class="chapter" data-level="1" data-path="robo-pastor.html"><a href="robo-pastor.html"><i class="fa fa-check"></i><b>1</b> Can Machines Help Christians Make Ethical Decisions?</a><ul>
+<li class="chapter" data-level="1.1" data-path="robo-pastor.html"><a href="robo-pastor.html#need-to-avoid-biased-biblical-interpretations"><i class="fa fa-check"></i><b>1.1</b> Need to avoid biased Biblical interpretations</a></li>
+<li class="chapter" data-level="1.2" data-path="robo-pastor.html"><a href="robo-pastor.html#using-nlp-for-robo-pastor"><i class="fa fa-check"></i><b>1.2</b> Using NLP for robo-pastor</a></li>
+<li class="chapter" data-level="1.3" data-path="robo-pastor.html"><a href="robo-pastor.html#true-purpose-of-robo-pastor"><i class="fa fa-check"></i><b>1.3</b> True purpose of robo-pastor</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="interview-prediction.html"><a href="interview-prediction.html"><i class="fa fa-check"></i>Predicting Interview Result Using Sound Data</a><ul>
-<li class="chapter" data-level="" data-path="interview-prediction.html"><a href="interview-prediction.html#post-interview-frustration"><i class="fa fa-check"></i>Post-Interview Frustration</a></li>
-<li class="chapter" data-level="" data-path="interview-prediction.html"><a href="interview-prediction.html#prediction-using-interview-recording"><i class="fa fa-check"></i>Prediction Using Interview Recording</a></li>
-<li class="chapter" data-level="" data-path="interview-prediction.html"><a href="interview-prediction.html#better-interview-experience"><i class="fa fa-check"></i>Better Interview Experience</a></li>
+<li class="chapter" data-level="2" data-path="interview-prediction.html"><a href="interview-prediction.html"><i class="fa fa-check"></i><b>2</b> Predicting Interview Result Using Sound Data</a><ul>
+<li class="chapter" data-level="2.1" data-path="interview-prediction.html"><a href="interview-prediction.html#post-interview-frustration"><i class="fa fa-check"></i><b>2.1</b> Post-Interview Frustration</a></li>
+<li class="chapter" data-level="2.2" data-path="interview-prediction.html"><a href="interview-prediction.html#prediction-using-interview-recording"><i class="fa fa-check"></i><b>2.2</b> Prediction Using Interview Recording</a></li>
+<li class="chapter" data-level="2.3" data-path="interview-prediction.html"><a href="interview-prediction.html#better-interview-experience"><i class="fa fa-check"></i><b>2.3</b> Better Interview Experience</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/kr900910" target="blank">GitHub</a></li>
@@ -99,21 +99,21 @@
 
             <section class="normal" id="section-">
 <div id="interview-prediction" class="section level1">
-<h1>Predicting Interview Result Using Sound Data</h1>
-<div id="keywords-1" class="section level4">
+<h1><span class="header-section-number">2</span> Predicting Interview Result Using Sound Data</h1>
+<div id="keywords-1" class="section level4 unnumbered">
 <h4>Keywords</h4>
 <p>interview, supervised learning, sound data, prediction</p>
 </div>
 <div id="post-interview-frustration" class="section level2">
-<h2>Post-Interview Frustration</h2>
+<h2><span class="header-section-number">2.1</span> Post-Interview Frustration</h2>
 <p>Most of interviewees should have asked themselves this question after an interview: “Did I do well during the interview?” Some companies let you know the interview result right away, but most of companies take at least a few days or even longer to respond to interviewees who often become frustrated waiting for the result. If there is a way to predict interview result based on conversation made during interview, it will relieve interviewees’ frustration during the waiting period and help them emotionally prepared for the interview result.</p>
 </div>
 <div id="prediction-using-interview-recording" class="section level2">
-<h2>Prediction Using Interview Recording</h2>
+<h2><span class="header-section-number">2.2</span> Prediction Using Interview Recording</h2>
 <p>One way to predict interview result is using machine learning methods and interview audio recording data. The basic idea is to identify different features from sound data and to use supervised learning to predict interview result. To train a machine learning model, sufficient amount of recording data should be collected. To achieve this, a sample of job seekers will be selected from LinkedIn, and they will be asked to record their interviews and report interview results. Once data is available, different features of sound data should be identified. For example, these features might include number of pauses, specific words used by interviewers, vibration level of interviewee’s voice, etc. After features are identified, sound data will be processed and loaded into database with the identified features and interview results (Offer/No Offer) as columns and collected samples as rows. This data set will be then divided into training set and test set, and supervised learning methods such as logistic regression or decision tree will be used to create a model with job offer probability as output. Once the model is trained and tested, a website can be created for interviewees to upload their interview sound recording and see the prediction result along with analysis of different features. Once the interviewees find out actual interview result, they will be asked to submit the result which will then be used to update the prediction model along with the originally uploaded recording.</p>
 </div>
 <div id="better-interview-experience" class="section level2">
-<h2>Better Interview Experience</h2>
+<h2><span class="header-section-number">2.3</span> Better Interview Experience</h2>
 <p>The solution described above will not only reduce post-interview frustration for interviewees but also help them identify the aspects of interviews that can be improved by providing analysis of different features. They can also perform practice interviews and analyze how certain changes can increase or decrease job offer probability. It will be challenging to collect interview recording data mainly because of company compliance rules. However, if we can provide some analytics to companies as well as interviewees and collect data through secured app to prevent data leakage issue, companies might be willing to record during interviews and help improve the prediction model results. The solution described will not completely free interviewees from frustration in uncertainty, but this will help improve overall interview experience for many job seekers by providing insights from interview data.</p>
 
 </div>
