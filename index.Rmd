@@ -18,12 +18,12 @@ library(magrittr)
 ```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center'}
 knitr::include_graphics('https://marketplace.canva.com/MAB_ajIqclg/2/0/thumbnail_large/canva-hello-world-creative-instagram-post-MAB_ajIqclg.jpg')
 ```
-Hello everyone! I'm Seung, and this is my first data science portfolio website. Hope you enjoy my ideas and connect with me if you're interested. Below is a short clip of myself talking about my hypothetical client (investor). Even though my ideas in this website are not directly related to finance, I'm planning to leverage my data science ideas to achieve what I'm describing in this video.
+Hello everyone! I'm Seung, and this is my first data science portfolio website. Hope you enjoy my ideas and connect with me if you're interested. Below is a short video describing my first idea (#robo-pastor) and why you need to join me to expand this concept!
 
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
 ```{r hello-seung,echo=FALSE,fig.cap='Hello Seung!',fig.align='center'}
-knitr::include_url('https://drive.google.com/file/d/19KFCHZROfVvwF2Kt19pp7qP1mLzGUsv_/preview')  
+knitr::include_url('https://drive.google.com/file/d/1VD53gIG2j75KeTdrpNuL0A3joG-LjiOd/preview')  
 ```
 
 ### Abstract of my first cool idea
