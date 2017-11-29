@@ -1,6 +1,6 @@
 # Can Machines Help Christians Make Ethical Decisions? {#robo-pastor}
 <!-- great title! love the slug too -->
-#### Keywords
+#### Keywords {-}
 robo-pastor, Biblical interpretation, NLP, summarization
 <!-- good keywords, but add one or two more -->
 
