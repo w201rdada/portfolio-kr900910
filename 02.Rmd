@@ -1,6 +1,6 @@
 # Predicting Interview Result Using Sound Data {#interview-prediction}
 
-#### Keywords
+#### Keywords {-}
 
 interview, supervised learning, sound data, prediction
 
